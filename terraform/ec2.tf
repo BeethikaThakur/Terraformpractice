@@ -1,6 +1,6 @@
 resource "aws_key_pair" "my-terrakey" {
     key_name = "terra-key1"
-    public_key = file("D:/Beethika/Study/TrainWithShubham/downloads-linux-files/terra-key.pub ")
+    public_key = file("pathtopublicid/terra-key.pub ")
   
 }
 resource "aws_default_vpc" "default" {
