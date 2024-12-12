@@ -8,7 +8,15 @@ variable "ec2instancetype" {
 }
 variable "tagname" {
     description = "tag for terraform file"
-    default = "terra"
-
+    default = "terra" 
+}
+variable "volumesize" {
+  description = "rootblock volume size for ec2 instance"
+  default="10"
+  
+}
+variable "volumetype" {
+  description = "root block volume type for ec2 instance"
+  default="gp3"
   
 }
