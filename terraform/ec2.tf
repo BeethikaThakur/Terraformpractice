@@ -33,7 +33,7 @@ resource "aws_security_group" "my-sg1" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags = {
-    Name="${var.tagname}-sg1"
+    Name="${var.tagname}-sg2"
   }
 }
 resource "aws_instance" "my-instance" {
